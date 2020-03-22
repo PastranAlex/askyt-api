@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+config*.json
+npm-debug.log
+log/*.log
+log/*.gz
+.vscode/
+*.log
+*.xlsx
+*.pdf
+*.env
+*.sql
+dump.rdb
+options.json
+\#*
+.#*
+*~*
