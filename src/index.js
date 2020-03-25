@@ -40,5 +40,5 @@ app.use(middlewares.errorsMiddleware);
 
 app.get('/', (req, res) => res.status(200).json({ status: 200 })) 
 
-
+app.use('/users', require('./api/users'))
 module.exports = server;
