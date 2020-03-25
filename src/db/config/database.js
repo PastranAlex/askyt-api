@@ -1,8 +1,5 @@
 const config = require('../../../config.js');
 
-console.log('DB CONFIG');
-console.log(config);
-
 module.exports = {
   development: {
     "username": config.DB_USER,
