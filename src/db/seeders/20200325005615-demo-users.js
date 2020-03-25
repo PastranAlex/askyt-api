@@ -1,4 +1,4 @@
-const { encryptString } = require('../../utils.js');
+
 
 module.exports = {
     up: (queryInterface, Sequelize) => {
@@ -8,7 +8,7 @@ module.exports = {
                     lastName: 'Torres Lepe',
                     phone: '+56984408727',
                     rut: '18979383-9',
-                    encryptedPassword: encryptString('1234'),
+                    encryptedPassword: '1234',
                     email: 'mario.torreslepe@gmail.com',
                     createdAt: new Date(),
                     updatedAt: new Date(),
@@ -19,7 +19,7 @@ module.exports = {
                     lastName: 'Droguett Huerta',
                     phone: '+1234567890',
                     rut: '19828816-0',
-                    encryptedPassword: encryptString('1234'),
+                    encryptedPassword: '1234',
                     email: 'estebandroguetthuerta@gmail.com',
                     createdAt: new Date(),
                     updatedAt: new Date(),
@@ -30,7 +30,7 @@ module.exports = {
                     lastName: 'Rubio Olivares',
                     phone: '+1234567890',
                     rut: '0987654321-3',
-                    encryptedPassword: encryptString('1234'),
+                    encryptedPassword: '1234',
                     email: 'nicolasrubio@gmail.com',
                     createdAt: new Date(),
                     updatedAt: new Date(),
