@@ -10,3 +10,4 @@ class BaseError extends Error {
 
 //example
 module.exports.NotFound = class NotFound extends BaseError{};
+module.exports.UserError = class UserError extends BaseError{};
