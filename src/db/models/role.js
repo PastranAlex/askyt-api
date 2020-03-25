@@ -5,6 +5,9 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     }
   });
+  Roles.associate = function(models) {
+    Roles.hasMany(models.User);
+  }
 
   return Roles;
 };
